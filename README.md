@@ -58,3 +58,17 @@ Clone the repository and install the required scientific libraries:
 git clone https://github.com/hardikpardik/content-aware-image-retargeting.git
 cd content-aware-image-retargeting
 pip install opencv-python numpy matplotlib numba
+```
+### Step 2: Standardize the Dataset
+To guarantee rigorous A/B testing, all input matrices must be mathematically proportional. Place any raw test images of any size into a folder named Raw_Downloads and run the prep script. It will perform a professional center-crop and generate perfect 1000x800 matrices.
+```bash
+python src/dataset_prep.py
+```
+Outputs will be saved in Evaluation_Dataset/1_Original_Inputs/.
+### Step 3: Run the Diagnostic Visualizer (Single Image)
+To process the dataset and generate the 4-panel mathematical dashboard showing the exact DP routing and energy maps:
+```bash
+python src/seam_carver.py
+```
+Dashboards will be generated automatically and saved to the Dashboard_Results/ directory.
+
