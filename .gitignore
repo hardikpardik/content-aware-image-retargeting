@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore your raw downloads dump, but KEEP the curated Evaluation_Dataset
+Raw_Downloads/
