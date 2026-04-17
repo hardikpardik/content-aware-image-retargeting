@@ -49,3 +49,12 @@ Instead of treating the algorithm as a black box, the pipeline generates a 4-pan
 │
 ├── Dashboard_Results/         # Auto-generated 4-panel academic dashboards
 └── README.md
+```
+## 🚀 Step-by-Step Usage Guide
+
+### Step 1: Installation
+Clone the repository and install the required scientific libraries:
+```bash
+git clone https://github.com/hardikpardik/content-aware-image-retargeting.git
+cd content-aware-image-retargeting
+pip install opencv-python numpy matplotlib numba
