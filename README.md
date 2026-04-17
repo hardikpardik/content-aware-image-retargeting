@@ -78,6 +78,9 @@ python src/generate_dataset.py
 ```
 Results will populate 2_Baseline_2007_Results/ and 3_Optimized_Hybrid_Results/.
 ### 📚 Literature & References
-1. Avidan, S., & Shamir, A. (2007). Seam Carving for Content-Aware Image Resizing. ACM Transactions on Graphics (SIGGRAPH).
-2. Rubinstein, M., Shamir, A., & Avidan, S. (2008). Improved Seam Carving for Video Retargeting. ACM Transactions on Graphics.
-3. Hou, X., & Zhang, L. (2007). Saliency Detection: A Spectral Residual Approach. IEEE Conference on Computer Vision and Pattern Recognition.
+## 📚 Literature & References
+1. Avidan, S., & Shamir, A. (2007). *Seam Carving for Content-Aware Image Resizing.* ACM Transactions on Graphics (SIGGRAPH).
+2. Rubinstein, M., Shamir, A., & Avidan, S. (2008). *Improved Seam Carving for Video Retargeting.* ACM Transactions on Graphics.
+3. Hou, X., & Zhang, L. (2007). *Saliency Detection: A Spectral Residual Approach.* IEEE Conference on Computer Vision and Pattern Recognition.
+4. Rubinstein, M., Gutierrez, D., Sorkine, O., & Shamir, A. (2010). *A Comparative Study of Image Retargeting.* ACM Transactions on Graphics (TOG).
+5. Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
