@@ -71,4 +71,13 @@ To process the dataset and generate the 4-panel mathematical dashboard showing t
 python src/seam_carver.py
 ```
 Dashboards will be generated automatically and saved to the Dashboard_Results/ directory.
-
+### Step 4: Run the Comparative Evaluation Pipeline
+To prove the efficacy of the 2026 optimizations against the 2007 literature, run the batch testing pipeline. This script will automatically toggle the mathematical parameters (enabling/disabling Saliency and Forward Energy) and process the entire dataset twice to provide a 1-to-1 visual comparison.
+```bash
+python src/generate_dataset.py
+```
+Results will populate 2_Baseline_2007_Results/ and 3_Optimized_Hybrid_Results/.
+### 📚 Literature & References
+1. Avidan, S., & Shamir, A. (2007). Seam Carving for Content-Aware Image Resizing. ACM Transactions on Graphics (SIGGRAPH).
+2. Rubinstein, M., Shamir, A., & Avidan, S. (2008). Improved Seam Carving for Video Retargeting. ACM Transactions on Graphics.
+3. Hou, X., & Zhang, L. (2007). Saliency Detection: A Spectral Residual Approach. IEEE Conference on Computer Vision and Pattern Recognition.
