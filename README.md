@@ -77,7 +77,6 @@ To prove the efficacy of the 2026 optimizations against the 2007 literature, run
 python src/generate_dataset.py
 ```
 Results will populate 2_Baseline_2007_Results/ and 3_Optimized_Hybrid_Results/.
-### 📚 Literature & References
 ## 📚 Literature & References
 1. Avidan, S., & Shamir, A. (2007). *Seam Carving for Content-Aware Image Resizing.* ACM Transactions on Graphics (SIGGRAPH).
 2. Rubinstein, M., Shamir, A., & Avidan, S. (2008). *Improved Seam Carving for Video Retargeting.* ACM Transactions on Graphics.
